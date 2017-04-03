@@ -1,0 +1,15 @@
+<link href="http://allfont.ru/allfont.css?fonts=agitprop-medium" rel="stylesheet" type="text/css" />
+font-family: 'AgitProp Medium', arial;
+
+
+    <style>
+      body {
+        font-family: 'AgitProp Medium', arial;
+        font-size: 48px;
+        text-shadow: 4px 4px 4px #aaa;
+      }
+    </style>
+
+  <body>
+    <div>Making the Web Beautiful with AgitProp Medium!</div>
+  </body>
