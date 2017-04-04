@@ -37,7 +37,7 @@ header .header-menu{
 }
 
 header .header-menu li{
-	background: url(/images/header-menu-default.jpg) repeat-x;
+	background: url('../images/header-menu-default.jpg') repeat-x;
 	float: left;
 	display: block;
 	position: relative;
@@ -63,11 +63,11 @@ header .header-menu a{
 }
 
 header .header-menu li:hover{
-	background: url(/images/header-menu-active.jpg) repeat-x;
+	background: url('../images/header-menu-active.jpg') repeat-x;
 }
 
 header .header-menu li.active{
-	background: url(/images/header-menu-active.jpg) repeat-x;
+	background: url('../images/header-menu-active.jpg') repeat-x;
 }
 
 /*======================== /Menu ========================*/
@@ -90,7 +90,7 @@ header .header-menu li.active{
 }
 
 .elastislide-wrapper {
-	background: url(/images/slider-bg.jpg) repeat-x;
+	background: url('../images/slider-bg.jpg') repeat-x;
 	position: relative;
 	margin: 0 auto;
 	min-height: 60px;
@@ -134,19 +134,19 @@ padding: 12px 4px;
 }
 
 .container-slider ul li#slide1 a{
-	background: url(/images/slide1.jpg) no-repeat;
+	background: url('../images/slide1.jpg') no-repeat;
 }
 
 .container-slider ul li#slide2 a{
-	background: url(/images/slide2.jpg) no-repeat;
+	background: url('../images/slide2.jpg') no-repeat;
 }
 
 .container-slider ul li#slide3 a{
-	background: url(/images/slide3.jpg) no-repeat;
+	background: url('../images/slide3.jpg') no-repeat;
 }
 
 .container-slider ul li#slide4 a{
-	background: url(/images/slide4.jpg) no-repeat;
+	background: url('../images/slide4.jpg') no-repeat;
 }
 
 .container-slider ul li a span{
@@ -196,7 +196,7 @@ padding: 12px 4px;
 	left: 103px;
 	top: 122px;
 
-	background: url(/images/icons/left.png) no-repeat;
+	background: url('../images/icons/left.png') no-repeat;
 	width: 24px;
 	height: 26px;
 	border-radius: 0;
@@ -210,7 +210,7 @@ padding: 12px 4px;
 	top: 122px;
 
 	left: auto;
-	background: url(/images/icons/right.png) no-repeat;
+	background: url('../images/icons/right.png') no-repeat;
 	background-position: 0;
 }
 /*========================/Slider========================*/
@@ -223,7 +223,7 @@ padding: 12px 4px;
 /*========================MAIN========================*/
 
 main{
-	background: url(/images/main-bg.jpg) repeat-x;
+	background: url('../images/main-bg.jpg') repeat-x;
 	height: 996px;
 	width: 1280px;
 	display: block;
@@ -240,7 +240,7 @@ main .left-menu{
 }
 
 main .left-menu li{
-	background: url(/images/left-menu-bg.jpg) repeat-x;
+	background: url('../images/left-menu-bg.jpg') repeat-x;
 	display: block;
 	padding: 5px 69px 5px 15px;
 	border-left: 1px solid #000;
@@ -259,7 +259,7 @@ main .left-menu li:last-child{
 }
 
 main .left-menu li:hover{
-	background: url(/images/left-menu-bg-active.jpg) repeat-x;
+	background: url('../images/left-menu-bg-active.jpg') repeat-x;
 }
 
 
@@ -282,11 +282,12 @@ main .form-top1{
 main .form-top{
 	display: block;
 	position: absolute;
+	width: 230px;
 }
 
 main .form-top li{
 	display: block;
-	background: url(/images/form-top-bg.jpg) repeat-x;
+	background: url('../images/form-top-bg.jpg') repeat-x;
 	padding: 13px 79px 15px 14px;
 	border-radius: 5px 5px 0 0;
 
@@ -303,6 +304,7 @@ main .form-top p{
 	color: #595858;
 	font-family: 'font117139';
 	font-size: 14px;
+	width: 200px;
 }
 
 main .form-body1{
@@ -389,12 +391,12 @@ button.form-button {
 	font-size: 14px;
 
 	border: none;
-	background: url(/images/buttons/button-ok.jpg) no-repeat;
+	background: url('../images/buttons/button-ok.jpg') no-repeat;
 	transition: .5s;
 }
 
 button.form-button:hover{
-	background: url(/images/buttons/button-ok-active.jpg) no-repeat;
+	background: url('../images/buttons/button-ok-active.jpg') no-repeat;
 	transition: .5s;
 }
 
@@ -419,14 +421,14 @@ button.form-button:hover{
 	display: block;
 	position: relative;
 	color: transparent;
-	background: url(/images/icons/checkbox.jpg) no-repeat;
+	background: url('../images/icons/checkbox.jpg') no-repeat;
 }
 
 
 .form-body input[type="checkbox"]:checked + label {
 	display: block;
 	position: relative;
-	background: url(/images/icons/checkbox-active.jpg) no-repeat;
+	background: url('../images/icons/checkbox-active.jpg') no-repeat;
 }
 
 .name-check{
@@ -461,7 +463,7 @@ main .form-top2{
 
 main .form-top2 li{
 	display: block;
-	background: url(/images/form-top-bg.jpg) repeat-x;
+	background: url('../images/form-top-bg.jpg') repeat-x;
 	padding: 13px 78px 15px 13px;
 	border-radius: 5px 5px 0 0;
 
@@ -567,12 +569,12 @@ button.search-button {
 
 	border: none;
 	border-radius: 1px;
-	background: url(/images/buttons/button-search.jpg) no-repeat;
+	background: url('../images/buttons/button-search.jpg') no-repeat;
 	transition: .5s;
 }
 
 button.search-button:hover{
-	background: url(/images/buttons/button-search-active.jpg) no-repeat;
+	background: url('../images/buttons/button-search-active.jpg') no-repeat;
 	transition: .5s;
 }
 
@@ -700,7 +702,7 @@ main .rating label {
 	display: inline-block;
 	float:right;
 	color: transparent;
-	background: url(/images/icons/star-dark.png) no-repeat;
+	background: url('../images/icons/star-dark.png') no-repeat;
 	width: 18px;
 	height: 19px;
 	transition: .5s;
@@ -718,7 +720,7 @@ main .rating a:focus ~ a	{
 	height: 19px;
 	padding: 0;
 	margin: 0;
-	background: url(/images/icons/star-light.png) no-repeat;
+	background: url('../images/icons/star-light.png') no-repeat;
 	transition: .5s;
 	cursor: pointer;
 }
@@ -774,13 +776,13 @@ main .rating a {
 		width: 61px;
 		height: 25px;
 
-		background: url("/images/buttons/button-buy.jpg") no-repeat; 
+		background: url('../images/buttons/button-buy.jpg') no-repeat; 
 		border-radius: 1px;
 		transition: .5s;
 	}
 
 	main .button-buy:hover{
-		background: url("/images/buttons/button-buy-active.jpg") no-repeat; 
+		background: url('../images/buttons/button-buy-active.jpg') no-repeat; 
 		transition: .5s;
 	}
 
@@ -791,7 +793,7 @@ main .rating a {
 
 		top: 140px;
 		left: 264px;
-		padding: 3px 0 0 12px;
+		padding: 3px 0 0 13px;
 
 		text-decoration: none;
 		color: #fff;
@@ -802,13 +804,13 @@ main .rating a {
 		width: 76px;
 		height: 25px;
 
-		background: url("/images/buttons/button-inbasket.jpg") no-repeat; 
+		background: url('../images/buttons/button-inbasket.jpg') no-repeat; 
 		border-radius: 1px;
 		transition: .5s;
 	}
 
 	main .button-inbasket:hover {
-		background: url("/images/buttons/button-inbasket-active.jpg") no-repeat; 
+		background: url('../images/buttons/button-inbasket-active.jpg') no-repeat; 
 		transition: .5s;
 	}
 
@@ -1022,8 +1024,8 @@ main .rating-modal{
 	z-index: 2;
 	display: block;
 	position: absolute;
-	top: 351px;
-	left: 34px;
+	top: 352px;
+	left: 35px;
 	width: 110px;
 }
 
@@ -1034,18 +1036,18 @@ main .button-buy-modal{
 }
 
 main .button-buy-modal:hover{
-	background: url(/images/buttons/button-buy-active.jpg) no-repeat;
+	background: url('../images/buttons/button-buy-active.jpg') no-repeat;
 	transition: .5s;
 }
 
 main .button-inbasket-modal{
 	top: 402px;
 	left: 96px;
-	padding: 3px 0 0 12px;
+	padding: 3px 0 0 13px;
 }
 
 main .button-inbasket-modal:hover{
-	background: url(/images/buttons/button-inbasket-active.jpg) no-repeat;
+	background: url('../images/buttons/button-inbasket-active.jpg') no-repeat;
 	transition: .5s;
 }
 
@@ -1335,7 +1337,7 @@ footer .footer-bg{
 	height: 170px; 
 	width: 1280px;
 
-	background: url('/images/footer-bg.jpg');
+	background: url('../images/footer-bg.jpg');
 }
 
 footer p.copyright {
@@ -1361,5 +1363,5 @@ footer p.copyright a:hover {
 	text-decoration: underline;
 }
 
-/*======================== FOOTER ========================*/
+/*======================== /FOOTER ========================*/
 
